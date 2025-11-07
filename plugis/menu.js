@@ -1,4 +1,4 @@
-const { ven, commands } = require('../Riko');
+const { ven, commands } = require('../riko');
 const config = require('../settings');
 const { runtime } = require("../lib/functions");
 

@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const config = require('../settings')
-const {ven , commands} = require('../pasiya');
+const {ven , commands} = require('../riko');
 
 const getContextInfo = (m) => {
     return {
@@ -10,7 +10,7 @@ const getContextInfo = (m) => {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
             newsletterJid: '120363400575205721@newsletter',
-            newsletterName: 'pasiya-md',
+            newsletterName: 'loku riko mini bo v2 niws',
             serverMessageId: 143,
         },
     };

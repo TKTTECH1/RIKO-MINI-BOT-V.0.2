@@ -1,4 +1,4 @@
-const { ven, commands } = require('../pasiya');
+const { ven, commands } = require('../Riko');
 const config = require('../settings');
 const { runtime } = require("../lib/functions");
 
@@ -6,8 +6,8 @@ ven(
   {
     pattern: "menu",
     alise: ["getmenu"],
-    react: "📔",
-    desc: "get cmd list",
+    react: "📜",
+    desc: "menu get cmd list",
     category: "main",
     filename: __filename,
   },
@@ -42,10 +42,10 @@ ven(
   ) => {
     try {
       let menu = {
-        main: "",
+        main: "LOKU RIKO MINI BOT V2",
         download: "",
-        group: "",
-        owner: "",
+        group: "loku riko mini bot v2 support groop",
+        owner: "Cybar loku riko",
         convert: "",
         search: "",
       };
@@ -60,12 +60,12 @@ ven(
   let platform = process.platform; 
   let madeMenu = `👋 *Hello  ${pushname}*
 
-╭━〔 🚀 *PASIYA MD V1* 〕━┈⊷
+╭━〔 🚀 *𝙻𝙾𝙺𝚄 𝚁𝙸𝙺𝙾 𝙼𝙸𝙽𝙸 𝙱𝙾𝚃 𝚅2* 〕━┈⊷
 ┃◈╭──────────────·๏
 ┃◈┃• 👑 Owner : *${config.OWNER_NAME}*
 ┃◈┃• ⚙️ Prefix : *[${config.PREFIX}]*
 ┃◈┃• 📱 Number : *${config.OWNER_NUM}*
-┃◈┃• ★ Created by : *PASIYA*
+┃◈┃• ★ Created by : *CYBAR LOKU RIKO*
 ┃◈┃• 📅 Date : *${new Date().toLocaleDateString()}*
 ┃◈┃• ⏰ Time : *${new Date().toLocaleTimeString()}*
 ┃◈┃• 🌐 Platform : *${platform}*
@@ -73,13 +73,12 @@ ven(
 ┃◈┃• ⏱️ Runtime : *${runtime(process.uptime())}*
 ┃◈╰──────────────┈⊷
 ╰━━━━━━━━━━━━━━━━┈⊷
-✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧
-  *PASIYA  MD*
-✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧
 
+*✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧*
+*𝐋𝐎𝐊𝐔 𝐑𝐈𝐊𝐎 𝐌𝐈𝐍𝐈*
+*✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧*
 
-
-╭─⊳⋅🤖 𝕮𝖔𝖗𝖊 𝖀𝖙𝖎𝖑𝖘 ⋅⊲─╮
+╭─⊳⋅🤖 𝐂𝙾𝚁𝙴 𝐔𝚃𝙸𝙻𝚂 ⋅⊲─╮
 ⌬ ${config.PREFIX}alive
 ⌬ ${config.PREFIX}menu
 ⌬ ${config.PREFIX}system
@@ -90,25 +89,25 @@ ven(
 ⌬ ${config.PREFIX}report
 ╰─⊲⋅═══════════⋅⊳─╯
 
-╭─⊳⋅⛩️ 𝕬𝖓𝖎𝖒𝖊 ⋅⊲─╮
+╭─⊳⋅⛩️ 𝐀𝙽𝙸𝙼𝙴 ⋅⊲─╮
 ⌬ ${config.PREFIX}anime
 ⌬ ${config.PREFIX}andl
 ⌬ ${config.PREFIX}download
 ⌬ ${config.PREFIX}animedetails
 ╰─═══════════⋅⊳─╯
 
-╭─⊳⋅📡 𝕬𝕴 ⋅⊲─╮
+╭─⊳⋅📡 𝐀𝙸 ⋅⊲─╮
 ⟠ ${config.PREFIX}ai 
 ╰─⊲⋅═════════⋅⊳─╯
 
-╭─⊳⋅👑 𝕺𝖜𝖓𝖊𝖗 ⋅⊲─╮  
+╭─⊳⋅👑 𝐎𝚆𝙽𝙴𝚁 ⋅⊲─╮  
 ✪ ${config.PREFIX}count  
 ⌬ ${config.PREFIX}shutdown
 ⌬ ${config.PREFIX}broadcast
 ⌬ ${config.PREFIX}gjid
 ╰─⊲⋅═════════⋅⊳─╯
 
-╭─⊳⋅🎵 𝕸𝖊𝖉𝖎𝖆 𝕿𝖔𝖔𝖑𝖘 ⋅⊲─╮
+╭─⊳⋅🎵 𝐌𝙴𝙳𝙸𝙰 𝐓𝙾𝙾𝙻𝚂 ⋅⊲─╮
 ⭒ ${config.PREFIX}sticker
 ⭒ ${config.PREFIX}toimg
 ⭒ ${config.PREFIX}gen
@@ -136,7 +135,7 @@ ven(
 ⭒ ${config.PREFIX}font <text>
 ╰─⊲⋅═════════════⋅⊳─╯
 
-╭─⊳⋅⬇️ 𝕯𝖔𝖜𝖓𝖑𝖔𝖆𝖉𝖊𝖗𝖘 ⋅⊲─╮
+╭─⊳⋅⬇️ 𝐃𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝚂 ⋅⊲─╮
 ⋗ 𝘼𝙪𝙙𝙞𝙤:
   ⇝ ${config.PREFIX}song
   ⇝ ${config.PREFIX}ttmp3
@@ -166,7 +165,7 @@ ven(
   ⇝ ${config.PREFIX}apk
 ╰─⊲⋅═══════════⋅⊳─╯
 
-╭─⊳⋅🔍 𝕾𝖊𝖆𝖗𝖈𝖍 ⋅⊲─╮
+╭─⊳⋅🔍 𝐒𝙴𝙰𝚁𝙲𝙷 ⋅⊲─╮
 ⨳ ${config.PREFIX}anime
 ⨳ ${config.PREFIX}img
 ⨳ ${config.PREFIX}weather
@@ -176,7 +175,7 @@ ven(
 ⨳ ${config.PREFIX}tiksearch
 ╰─⊲⋅══════════⋅⊳─╯
 
-╭─⊳⋅😃 𝓔𝓜𝓞𝓣𝓘𝓞𝓝𝓢 ⋅⊲─╮
+╭─⊳⋅😃 𝐄𝙼𝙾𝚃 𝐋𝙾𝙽𝚂⋅⊲─╮
 ⤷ ${config.PREFIX}happy
 ⤷ ${config.PREFIX}heart
 ⤷ ${config.PREFIX}angry
@@ -188,31 +187,31 @@ ven(
 ⤷ ${config.PREFIX}nikal
 ╰─⊲⋅════════════⋅⊳─╯
 
-╭─⊳⋅ ⚜ 𝕷𝖔𝖌𝖔 ⋅⊲─╮
+╭─⊳⋅ ⚜ 𝐋𝙾𝙶𝙾 ⋅⊲─╮
 ⚜ ${config.PREFIX}ephoto <name>
 ╰─⊲⋅═══════⋅⊳─╯
 
 
-╭─⊳⋅✞ 𝓡𝓔𝓵𝓲𝓰𝓲𝓸𝓷⋅⊲─╮
+╭─⊳⋅✞ 𝐑𝙴𝙻𝙸𝙶𝙸𝙾𝙽⊲─╮
 ⤞ ${config.PREFIX}bible 
 ⤞ ${config.PREFIX}quran
 ⤞ ${config.PREFIX}surahlist
 ⤞ ${config.PREFIX}praytime
 ╰─⊲⋅══════════⋅⊳─╯
 
-╭─⊳⋅🗞️ 𝕹𝖊𝖜𝖘 ⋅⊲─╮
+╭─⊳⋅🗞️ 𝐍𝙴𝚆𝚂 ⋅⊲─╮
 ⨠ ${config.PREFIX}hirunews
 ⨠ ${config.PREFIX}itnnews
 ╰─⊲⋅════════⋅⊳─╯
 
-╭─⊳⋅🛠️ 𝕾𝖞𝖘𝖙𝖊𝖒 ⋅⊲─╮
+╭─⊳⋅🛠️ 𝐒𝚈𝚂𝚃𝙴𝙼 ⋅⊲─╮
 ⚙ ${config.PREFIX}restart
 ⚙ ${config.PREFIX}leave
 ⚙ ${config.PREFIX}block
 ⚙ ${config.PREFIX}unblock
 ╰─⊲⋅══════════⋅⊳─╯
 
-╭─⊳⋅⚙️ 𝕾𝖊𝖙𝖙𝖎𝖓𝖌𝖘 ⋅⊲─╮
+╭─⊳⋅⚙️ 𝐒𝙴𝚃𝚃𝙸𝙽𝙶𝚂 ⋅⊲─╮
 ⚙ ${config.PREFIX}setprefix
 ⚙ ${config.PREFIX}mode
 ⚙ ${config.PREFIX}auto_typing
@@ -232,7 +231,7 @@ ven(
 ╰─⊲⋅═════════⋅⊳─╯
 
 
-╭─⊳⋅👥 Group ⋅⊲─╮
+╭─⊳⋅👥 𝐆𝚁𝙾𝙾𝙿 ⋅⊲─╮
 ✫ ${config.PREFIX}mute
 ✫ ${config.PREFIX}unmute
 ✫ ${config.PREFIX}promote
@@ -265,11 +264,11 @@ ven(
 ╰─⊲⋅══════════⋅⊳─╯
 
 
-╭─⊳⋅🌐 𝕾𝖕𝖊𝖈𝖎𝖆𝖑 ⋅⊲─╮
+╭─⊳⋅🌐 𝐒𝙿𝙴𝙲𝙸𝙰𝙻 ⋅⊲─╮
 ⎇ ${config.PREFIX}sinhala
 ╰─⊲⋅═════════⋅⊳─╯
 
-╭─⊳⋅🎨 𝕬𝖓𝖎𝖒𝖊 𝕴𝖒𝖆𝖌𝖊𝖘 ⋅⊲─╮
+╭─⊳⋅🎨 𝐀𝙽𝙸𝙼𝙴 𝐌𝙰𝚂𝚂𝙴𝙶𝙴 ⋅⊲─╮
 ⤷ ${config.PREFIX}garl
 ⤷ ${config.PREFIX}waifu
 ⤷ ${config.PREFIX}neko
@@ -291,7 +290,7 @@ ven(
 ⤷ ${config.PREFIX}dog
 ╰─⊲⋅════════════⋅⊳─╯
 
-╭─⊳⋅🔞 𝕹𝕾𝕱𝕎 ⋅⊲─╮
+╭─⊳⋅🔞 𝐍𝚂𝙵𝚆 ⋅⊲─╮
 ⤷ ${config.PREFIX}xnxx-dl
 ⤷ ${config.PREFIX}epsearch
 ⤷ ${config.PREFIX}epdownload
@@ -299,7 +298,7 @@ ven(
 ⤷ ${config.PREFIX}waifu
 ╰─⊲⋅══════════⋅⊳─╯
 
-╭─⊳⋅👨💻 𝕯𝕰𝕽𝕾 ⋅⊲─╮
+╭─⊳⋅👨💻 𝐃𝚁𝙾𝚂 ⋅⊲─╮
 ✏ ${config.PREFIX}gitclone
 ✏ ${config.PREFIX}ssweb
 ✏ ${config.PREFIX}qr
@@ -307,7 +306,7 @@ ven(
 ✏ ${config.PREFIX}fetch
 ╰─⊲⋅════════════⋅⊳─╯
 
-╭─⊳⋅😜 𝕱𝕌𝕹 ⋅⊲─╮
+╭─⊳⋅😜 𝐅𝚄𝙽 ⋅⊲─╮
 ✘ ${config.PREFIX}quote
 ✘ ${config.PREFIX}jokes
 ✘ ${config.PREFIX}pickupline
@@ -316,14 +315,14 @@ ven(
 ✘ ${config.PREFIX}dare
 ╰─⊲⋅════════⋅⊳─╯
 
-╭─⊳⋅📱 𝕾𝖙𝖆𝖑𝖐𝖘 ⋅⊲─╮
+╭─⊳⋅📱 𝐒𝚃𝙰𝙻𝙺𝚂 ⋅⊲─╮
 ⟹ ${config.PREFIX}ttstalk
 ⟹ ${config.PREFIX}ghstalk
 ╰─⊲⋅═════════⋅⊳─╯
 
-✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧
- *PASIYA MD*
-✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧
+*✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧*
+ *𝐋𝐎𝐊𝐔 𝐑𝐈𝐊𝐎 𝐌𝐈𝐍𝐈*
+*✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧*
 `;
       
       const newsletterContext = {
@@ -332,7 +331,7 @@ ven(
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363402825685029@newsletter',
-          newsletterName: "PASIYA MD V1",
+          newsletterName: "LOKU RIKO MINI BOT V2",
           serverMessageId: 143,
         },
       };
@@ -341,7 +340,7 @@ ven(
         from,
         {
           image: {
-            url: "https://i.ibb.co/PGXs1vqB/temp-image.jpg",
+            url: "https://i.postimg.cc/NLqnJw8j/20251105-183018.jpg",
           },
           caption: madeMenu,
           contextInfo: newsletterContext,

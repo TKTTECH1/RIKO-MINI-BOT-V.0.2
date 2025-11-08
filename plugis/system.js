@@ -46,7 +46,7 @@ const caption = `*🍀 𝐋𝐎𝐊𝐔 𝐑𝐈𝐊𝐎 𝐌𝐈𝐍𝐈 𝐁�
                 image: { url: 'https://i.postimg.cc/d0GRqL6N/In-Shot-20251105-181815424.jpg' }, // Confirm accessibility
                 caption,
                 contextInfo: {
-                    mentionedJid: ['94719199757@s.whatsapp.net'],
+                    mentionedJid: ['94751635330@s.whatsapp.net'],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {

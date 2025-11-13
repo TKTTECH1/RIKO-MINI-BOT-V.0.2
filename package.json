@@ -1,7 +1,7 @@
 {
-  "name": "loku riko",
+  "name": "TKT-CYBER-MINI-MD",
   "version": "1.0.0",
-  "description": "Loku riko mini v2 WhatsApp Bot with Multi-Number Support",
+  "description": "TKT-CYBER-MINI-v2 WhatsApp Bot with Multi-Number Support",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -29,8 +29,8 @@
     "bot",
     "multi-device",
     "baileys",
-    "loku riko mini bot v2"
+    "tkt-cyber mini bot v2"
   ],
-  "author": "ᴄʏʙᴀʀ ʟᴏᴋᴜ ʀɪᴋᴏ",
+  "author": "tkttech",
   "license": "MIT"
 }
